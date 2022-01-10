@@ -5,13 +5,7 @@ import './App.css';
 import SpaceJams from './SpaceJams';
 //now in order to see it, we need to use it in the app.js file (see note down below in the return)
 
-function render(state){
-  $('#app').append(`
-    <div class = "App"> 
-    <img src= "${logoSrc}"/>
-    </div>
-  `)
-}
+
 
 function App() {
   let eagleCamName = 'Dick Pritchett Real Estate';
